@@ -1,0 +1,137 @@
+body {
+    background-image: url('images/design-sem-nome-3.webp');
+    background-repeat: repeat-y;
+    background-size: auto 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00000000;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 60%;
+    max-width: 325px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 67px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff8c00;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0px 30px rgb(255, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: 'Black Ops One', sans-serif;
+    font-size: 24px;
+    margin: 50px auto;
+    padding: 10px 20px;
+}
+
+.imagem {
+    max-width: 90%;
+}
+
+#oportunidade {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    display: none;
+    font-family: 'Black Ops One', sans-serif;
+    margin-bottom: +8%;
+}
+
+.espaco-inferior {
+    margin-bottom: 30px;
+}
+
+.texto-abaixo-botao {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Black Ops One', sans-serif;
+}
+
+/* Estilos para dispositivos menores */
+@media screen and (max-width: 768px) {
+    .logo {
+        max-width: 700px;
+        
+        
+        
+    }
+
+#oportunidade {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    display: none;
+    font-family: 'Black Ops One', sans-serif;
+    margin-bottom: -7%;
+}
+    .texto-abaixo-botao, #oportunidade {
+        font-size: 16px;
+        
+    }
+
+    button {
+        margin-top: 11%;
+        margin-bottom:-2%;
+        font-size: 28px;
+        padding: 20px 45px;
+
+    }
+
+    /* Centralizar todos os elementos vertical e horizontalmente */
+    .container {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    /* Estilos adicionais para texto abaixo do botè´™o */
+    .texto-abaixo-botao {
+        font-family: 'Black Ops One', sans-serif !important;
+    }
+    
+    .iframe-container { 
+        margin-top: -11%;
+}
+
+/* CSS para reduzir o espaè´Æamento interno */
+.espaco-inferior {
+    padding: -10%; /* Ajuste o valor de acordo com a quantidade de espaè´Æamento desejada */
+}
+
+}
